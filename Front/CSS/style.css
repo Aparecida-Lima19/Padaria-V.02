@@ -1,0 +1,310 @@
+
+
+*{
+    list-style: none;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'RocknRoll One', sans-serif;
+}
+/* Cor de fundo*/
+.bg-primary-color{
+    background-color: #FFE785;
+}
+.bg-secondary-color{
+    background-color: white;
+}
+.bg-bark-color{
+    background-color: #B85E2A;  
+}
+/*Cor de fonte/texto*/
+.primary-color{
+    color: black;
+}
+.secondary-color{
+    color: white;
+}
+/*Cor do btn*/
+
+/* nave bar - Barra de pesquisa*/
+#navbar{
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.50);
+}
+#navbar a:hover{
+    color: #B85E2A;
+}
+#navbar-items .navbar-nav{ 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#navbar-items .nav-items{
+    margin-right: 210px;
+    margin: 0 1em;
+    font-weight: swap;
+    font-size: 1em;
+}
+.navbar-brand{
+    display: flex;
+}
+.navbar-brand img{
+    margin-left: 200px;
+    width: 100px;
+}
+/*Carrosel */
+#espaço{
+    height: 206px;
+}
+#carousel{
+    width: 100%;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.50);
+}
+/* Texto */
+.text-box{
+    padding: 10em 0 4em 0;
+    color: #000;
+    text-align: center;
+}
+.text-box h1{
+    font-size: 3em;
+}
+.text-box p{
+    margin-top: 0.5em;
+    font-size: 1.8em;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+
+
+#descri{
+    position: relative;
+    width: 94.9em;
+    margin: 1.5em 0;
+}
+#descri-fun{
+    position: relative;
+    width: 94.9em;
+}
+#descri ul{
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+#descri li{
+    margin: 1.5em 0;
+}
+#descri a{
+    text-decoration: none;
+    position: relative;
+    margin: 0 auto;
+    display:flex;
+}
+.descri_produA{
+    width: 1042px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 0px 350px 55px 0px;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.50);
+}
+.descri_produB{
+    display: flex;
+    width: 1042px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 350px 0px 0px 55px;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.50);
+}
+.descri_produA img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 0px 20px 20px 0px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.50);
+}
+.descri_produB img{
+    position: relative;
+    left: 4em;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 0px 0px 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.50); 
+}
+.text-descriA{
+    position: relative;
+    top: 2.5em;
+    text-align: center;
+}
+.text-descriA h3{
+    font-size: 1.3em;
+}
+.text-descriA h5{
+    position: relative;
+    left: 1em;
+    top: 2.5em;
+    font-size: 1em;
+}
+.text-proA{
+    position: relative;
+    left: 1.5em;
+    top: 4em;
+}
+.text-descriB{
+    position: relative;
+    top: 2.5em;
+    text-align: center;
+}
+.text-pro{
+    position: relative;
+    left: 3.5em;
+    font-size: 1.3em;
+}
+.text-descriB h5{
+    position: relative;
+    left: 2em;
+    top: 2.5em;
+    font-size: 1em;
+}
+.text-proB{
+    position: relative;
+    font-size: 1.3em;
+    left: 1em;
+    top: 4em;
+}
+#bar-fim{
+    width: 95.65em;
+    height: 15em;
+    flex-shrink: 0;
+}
+
+#bar-fim ul{
+    position: relative;
+    top: 4em;
+    margin: 0 auto;
+    display:flex;
+}
+#bar-fim li{
+    position: relative;
+    padding: 0 8em;    
+}
+
+
+
+/* */
+
+/* */
+
+/* Telas maiores e notebooks */
+@media screen and (min-width: 992px) and (max-width: 1999px){
+    /* Responsividade da Nav bar*/     
+        /* Resposividade da imagem da logo */
+        .navbar-brand img{
+            margin-left: 120px;
+            width: 90px;
+        }
+    /* Fim Responsividade da Nav bar*/
+
+    /*Reajuste do carrosel*/
+    #espaço{
+        height: 116px;
+    }
+    /* #cart{
+        width: 84.9em;
+        height: 15em;
+    } */
+    #descri{
+        
+        width: 94.9em;
+        margin: 1.5em 0;
+    }
+}
+
+/* Teblets */
+@media screen and (min-width: 48rem) and (max-width: 61.9375rem){
+    /* Responsividade da Nav bar*/ 
+        /* Resposividade da imagem da logo */
+        .navbar-brand img{
+            margin-left: 110px;
+            width: 80px;
+        }
+    /* Fim Responsividade da Nav bar*/ 
+    /*Reajuste do carrosel*/
+    #espaço{
+        height: 106px;
+    }
+    /*btn do menu*/
+    .navbar-toggler{
+        margin-right: 110px;
+    }
+    #descri{
+        
+        width: 94.9em;
+        margin: 1.5em 0;
+
+    } 
+
+
+}
+.categoria-prin{
+    padding: 10px;
+    margin: 0 auto;
+    
+    
+}
+.categoria-prin ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+
+.categoria-prin li{
+    list-style: none;
+}
+
+@media screen and (max-width: 768px){
+
+ .categoria-prin ul{
+    flex-direction: column;
+    align-items: center;
+ }
+}
+
+/* Tela muito pequenas */
+/* @media screen and (min-width: 481px) and (max-width: 767px){ */
+    /* Responsividade da Nav bar*/ 
+        /* Resposividade da imagem da logo */
+        /* .navbar-brand img{
+            margin-left: 90px;
+            width: 65px;
+        } */
+    /* Fim Responsividade da Nav bar*/
+    /*Reajuste do carrosel*/
+    /* #espaço{
+        height: 90px;
+    }
+    /*btn do menu*/
+    /* .navbar-toggler{
+        margin-right: 90px;
+    } */ 
+/* } */
+
+/* Tela de Celular */
+/* @media screen and (max-width: 480px){ */
+    /* Responsividade da Nav bar*/ 
+        /* Resposividade da imagem da logo */
+        /* .navbar-brand img{
+            margin-left: 70px;
+            width: 55px; */
+        /* } */
+    /* Fim Responsividade da Nav bar*/
+     /*Reajuste do carrosel*/
+     /* #espaço{
+        height: 81px;
+    } */
+    /*btn do menu*/
+    /* .navbar-toggler{
+        margin-right: 70px;
+    }
+}
